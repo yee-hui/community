@@ -2,7 +2,7 @@ package learn.yee.community.dto;
 
 public class GithubUser {
     private String id;
-    private Long name;
+    private String name;
     private String bio;
 
     public String getId() {
@@ -13,11 +13,11 @@ public class GithubUser {
         this.id = id;
     }
 
-    public Long getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(Long name) {
+    public void setName(String  name) {
         this.name = name;
     }
 
@@ -27,5 +27,14 @@ public class GithubUser {
 
     public void setBio(String bio) {
         this.bio = bio;
+    }
+
+    @Override
+    public String toString() {
+        return "GithubUser{" +
+                "id='" + id + '\'' +
+                ", name=" + name +
+                ", bio='" + bio + '\'' +
+                '}';
     }
 }

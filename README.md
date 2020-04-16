@@ -10,3 +10,6 @@ https://v3.bootcss.com/getting-started/
 
 [OkHttp]https://square.github.io/okhttp/
 [maven]https://mvnrepository.com/repos
+[mybatis]http://mybatis.org/spring-boot-starter/mybatis-spring-boot-autoconfigure/index.html
+
+[spring 文档]https://docs.spring.io/spring-boot/docs/2.2.0.RC1/reference/htmlsingle/
