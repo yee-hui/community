@@ -6,6 +6,6 @@ body{
     margin:30px;
 }
 .btn-publish{
-    folat:right;
+    float:right;
     margin-bottom: 15px;
 }
