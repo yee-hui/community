@@ -1,13 +1,10 @@
-package learn.yee.community.model;
+package learn.yee.community.dto;
 
+import learn.yee.community.model.User;
 import lombok.Data;
 
-/**
- *
- * @author Yee
- */
 @Data
-public class Question {
+public class QuestionDTO {
     private Integer id;
     private String title;
     private String description;
@@ -18,5 +15,5 @@ public class Question {
     private Integer viewCount;
     private Integer commentCount;
     private Integer likeCount;
-
+    private User user;
 }
