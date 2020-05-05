@@ -19,6 +19,7 @@ public class PaginationDTO {
     private Integer page;
     private List<Integer> pages = new ArrayList<>();
     private Integer totalPage;
+    private Integer offset;
 
     public void setPagination(Integer totalCount, Integer page, Integer size) {
         Integer totalPage = 0;
@@ -38,6 +39,7 @@ public class PaginationDTO {
             page= totalPage;
         }
         this.page = page;
+        this.offset = size*(page-1);
 
         pages.add(page);
         for(int i=1;i<=3;i++){
